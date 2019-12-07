@@ -1,6 +1,9 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
+import React from 'react';
+import Head from 'next/head';
+import Nav from '../components/nav';
+
+// Styles
+import Title from '../components/Title/styles';
 
 const Home = () => (
   <div>
@@ -12,7 +15,7 @@ const Home = () => (
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Welcome to Next.js!</h1>
+      <Title>Welcome to Next.js!</Title>
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
@@ -41,14 +44,6 @@ const Home = () => (
         width: 100%;
         color: #333;
       }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
       .description {
         text-align: center;
       }
@@ -83,6 +78,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;

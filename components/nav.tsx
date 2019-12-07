@@ -8,9 +8,9 @@ interface LinkInterface {
 }
 
 const links = [
+  { href: `/articles`, label: 'Articles' },
   { href: 'https://zeit.co/now', label: 'ZEIT' },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub' },
-  { href: `/articles/${Math.floor(Math.random() * 10)}`, label: 'Random' }
+  { href: 'https://github.com/zeit/next.js', label: 'GitHub' }
 ].map((link: LinkInterface) => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
