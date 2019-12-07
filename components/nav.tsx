@@ -8,6 +8,7 @@ interface LinkInterface {
 }
 
 const links = [
+  { href: `/layout`, label: 'Layout' },
   { href: `/articles`, label: 'Articles' },
   { href: 'https://zeit.co/now', label: 'ZEIT' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub' }

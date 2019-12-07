@@ -18,3 +18,8 @@
   }
   ```
 - Added the `clg` snippet to `typescriptreact`
+
+# TODO / Nice to Haves
+
+- ignore `components` and `styles` directories within `/pages` directory
+  - would be nice to colocate page-specific components and styles next to the page component
