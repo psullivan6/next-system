@@ -1,4 +1,9 @@
-const theme = {
+interface Theme {
+  colors: { string };
+  space: number[];
+}
+
+const theme: Theme = {
   colors: {
     primary: '#36f',
     secondary: '#f33',
