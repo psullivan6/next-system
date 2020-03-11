@@ -20,6 +20,8 @@
   "devDependencies": {
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.15",
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9",
     "typescript": "^3.7.3"
   }
 }

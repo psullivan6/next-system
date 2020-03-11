@@ -8,6 +8,7 @@ import Text from '../components/Text';
 
 // Styles
 import Title from '../components/Title/styles';
+// import Card from '../components/_pages/home/Card'; // the `href` prop works, but the Box extend fails
 import Card from '../components/_pages/home/Card/styles';
 
 const Home = () => (
@@ -19,7 +20,7 @@ const Home = () => (
 
     <Nav />
 
-    <Box color="#333">
+    <Box as="section" backgroundColor="#eee" p={3}>
       <Title>
         TEST <code>styled-system</code> layout
       </Title>
@@ -29,13 +30,13 @@ const Home = () => (
 
       <Box
         display="flex"
-        justifyContent="space-around"
+        justifyContent="space-between"
         maxWidth={880}
         marginX="auto"
         marginTop={7}
         marginBottom={5}
       >
-        <Card href="https://nextjs.org/docs">
+        <Card href="https://nextjs.org/docs" width="20%">
           <Text as="h3" margin={0} color="primary" fontSize={18}>
             Documentation &rarr;
           </Text>

@@ -1,9 +1,6 @@
-interface Theme {
-  colors: { string };
-  space: number[];
-}
+import { ITheme } from 'styled-components'
 
-const theme: Theme = {
+const theme: ITheme = {
   colors: {
     primary: '#36f',
     secondary: '#f33',
